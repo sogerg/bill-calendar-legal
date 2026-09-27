@@ -17,7 +17,7 @@
 <body>
 
 <h1>Politique de confidentialité — Bill Calendar</h1>
-<p><em>Dernière mise à jour : 27 septembre 2026</em></p>
+<p><em>Dernière mise à jour : 28 septembre 2026</em></p>
 
 <p>Bill Calendar (« l'application ») est éditée par Sogerg (Grégory Portailler), entreprise
 individuelle domiciliée 7 Che des Plantées, 42600 Montbrison, France.</p>
@@ -31,7 +31,8 @@ nous ne recevons rien de votre part.</p>
 <p>Tout est conservé localement, dans l'espace privé de l'application sur votre appareil :</p>
 <ul>
   <li><strong>Vos échéances</strong> : le nom, le montant, la devise, la fréquence, les dates, la
-  catégorie, le moyen de paiement, les notes, les occurrences que vous marquez payées.</li>
+  catégorie, le moyen de paiement, les notes, les occurrences que vous marquez payées, et
+  l'historique daté de leurs montants (pour suivre les hausses de prix).</li>
   <li><strong>Vos réglages</strong> : la langue, la devise par défaut, le délai et l'heure des
   rappels.</li>
   <li><strong>Un relevé bancaire que vous choisissez d'importer</strong> (fichier CSV exporté par
@@ -39,7 +40,8 @@ nous ne recevons rien de votre part.</p>
   les échéances que vous cochez sont conservées ; le fichier lui-même n'est pas gardé.</li>
   <li><strong>Un fichier de foyer que vous choisissez d'importer</strong> (créé par l'application
   sur un autre téléphone) : ses échéances sont fusionnées avec les vôtres, le fichier n'est pas
-  gardé.</li>
+  gardé. Il peut aussi être lu sous forme de <strong>QR codes affichés par l'autre téléphone</strong>
+  (voir § 2) : même contenu, même fusion, rien n'est gardé des images.</li>
   <li><strong>Sur iPhone, deux dates de la période gratuite</strong> : la date de première
   ouverture de l'application et la date la plus récente où elle a été ouverte. Elles sont
   rangées dans le trousseau d'iOS, qui les conserve même après une désinstallation, pour que
@@ -49,8 +51,11 @@ nous ne recevons rien de votre part.</p>
 
 <h2>2. Autorisations demandées</h2>
 <p>L'application demande l'autorisation d'envoyer des <strong>notifications</strong>, pour les
-rappels avant vos échéances. Ces notifications sont programmées sur l'appareil, sans serveur.
-Elle ne demande ni la localisation, ni les contacts, ni l'accès aux photos.</p>
+rappels avant vos échéances. Ces notifications sont programmées sur l'appareil, sans serveur.</p>
+<p>Elle demande l'accès à la <strong>caméra</strong> uniquement quand vous choisissez « Scanner le
+QR d'un autre téléphone » : la caméra sert à lire les QR codes du foyer affichés par un autre
+téléphone. Aucune photo ni vidéo n'est enregistrée, rien n'est envoyé ; le micro n'est jamais
+demandé. Elle ne demande ni la localisation, ni les contacts, ni l'accès aux photos.</p>
 
 <h2>3. Ce que l'application ne fait pas</h2>
 <ul>
@@ -64,7 +69,7 @@ Elle ne demande ni la localisation, ni les contacts, ni l'accès aux photos.</p>
 
 <h2>4. Ce que vous exportez vous-même</h2>
 <p>Vous pouvez exporter vos échéances vers le calendrier du téléphone (fichier .ics) ou vers un
-autre téléphone du foyer (fichier), et exporter l'année en PDF (mois par mois, par catégorie, la
+autre téléphone du foyer (fichier ou QR codes affichés à l'écran), et exporter l'année en PDF (mois par mois, par catégorie, la
 liste de vos échéances). Ces fichiers sont créés à votre demande, remis à la feuille
 de partage du système, et vous seul décidez où ils vont.</p>
 
@@ -88,7 +93,7 @@ en ligne de cette version, et la date en haut de page changerait.</p>
 <hr>
 
 <h1 lang="en">Privacy Policy — Bill Calendar</h1>
-<p lang="en"><em>Last updated: 27 September 2026</em></p>
+<p lang="en"><em>Last updated: 28 September 2026</em></p>
 
 <p lang="en">Bill Calendar (“the app”) is published by Sogerg (Grégory Portailler), a sole trader
 registered at 7 Che des Plantées, 42600 Montbrison, France.</p>
@@ -101,13 +106,16 @@ send it. We have no server, no user accounts, and we receive nothing from you.</
 <p lang="en">Everything stays locally, in the app's private storage on your device:</p>
 <ul lang="en">
   <li><strong>Your bills</strong>: name, amount, currency, frequency, dates, category, payment
-  method, notes, and the occurrences you mark as paid.</li>
+  method, notes, the occurrences you mark as paid, and the dated history of their amounts (to
+  track price increases).</li>
   <li><strong>Your settings</strong>: language, default currency, reminder delay and time.</li>
   <li><strong>A bank statement you choose to import</strong> (a CSV file you exported yourself from
   your bank) is read on the device to spot recurring payments. Only the bills you tick are kept;
   the file itself is not stored.</li>
   <li><strong>A household file you choose to import</strong> (created by the app on another
-  phone): its bills are merged with yours, and the file itself is not stored.</li>
+  phone): its bills are merged with yours, and the file itself is not stored. It can also be read
+  as <strong>QR codes shown by the other phone</strong> (see § 2): same content, same merge, nothing
+  is kept from the images.</li>
   <li><strong>On iPhone, two dates for the free period</strong>: the date the app was first
   opened and the most recent date it was opened. They are kept in the iOS Keychain, which keeps
   them even after the app is deleted, so that the free period does not restart on every
@@ -116,8 +124,11 @@ send it. We have no server, no user accounts, and we receive nothing from you.</
 
 <h2 lang="en">2. Permissions requested</h2>
 <p lang="en">The app asks for permission to send <strong>notifications</strong>, for reminders
-before your due dates. They are scheduled on the device, with no server. It does not ask for
-location, contacts or photos.</p>
+before your due dates. They are scheduled on the device, with no server.</p>
+<p lang="en">It asks for <strong>camera</strong> access only when you choose “Scan another phone's
+QR”: the camera reads the household QR codes shown by another phone. No photo or video is saved,
+nothing is sent, and the microphone is never requested. It does not ask for location, contacts or
+photos.</p>
 
 <h2 lang="en">3. What the app does not do</h2>
 <ul lang="en">
@@ -131,7 +142,7 @@ location, contacts or photos.</p>
 
 <h2 lang="en">4. What you export yourself</h2>
 <p lang="en">You can export your bills to the phone's calendar (.ics file) or to another phone in
-your household (file), and export the year as a PDF (month by month, by category, and the list of
+your household (file, or QR codes shown on screen), and export the year as a PDF (month by month, by category, and the list of
 your bills). These files are created at your request, handed to the system share sheet,
 and you alone decide where they go.</p>
 
